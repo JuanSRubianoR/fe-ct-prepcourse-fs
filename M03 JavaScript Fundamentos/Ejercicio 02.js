@@ -2,35 +2,37 @@
 /*2️⃣ EJERCICIO 02 2️⃣*/
 
 function devolverString(string) {
-   // Debe retornar un string.
-   // Tu código:
+   console.log(string)
 }
+   devolverString("Equis de");
 
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
    // Retorna el resultado de su suma.
-   // Tu código:
+   return suma(x+y);
 }
+   suma(31,8);
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
-   // Tu código:
+   return resta(x-y);
 }
 
 function divide(x, y) {
    // Retorna el resultado de su división.
-   // Tu código:
+   return divide(x/y);
 }
+   divide(15,5);
 
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
-   // Tu código:
+   return multiplica(x*y);
 }
 
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
-   // Tu código:
+   return obtenerResto(x % y);
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
